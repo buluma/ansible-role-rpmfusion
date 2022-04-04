@@ -1,5 +1,5 @@
 ---
 roles:
-  - name: robertdebock.bootstrap
-  - name: robertdebock.epel
+  - name: buluma.bootstrap
+  - name: buluma.epel
 collections:
