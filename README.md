@@ -4,7 +4,7 @@ Install rpmfusion repositories on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-rpmfusion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-rpmfusion/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-rpmfusion/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-rpmfusion)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/rpmfusion)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/rpmfusion)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-rpmfusion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-rpmfusion/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-rpmfusion/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-rpmfusion)|[![quality](https://img.shields.io/ansible/quality/58663)](https://galaxy.ansible.com/buluma/rpmfusion)|[![downloads](https://img.shields.io/ansible/role/d/58663)](https://galaxy.ansible.com/buluma/rpmfusion)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -58,8 +58,8 @@ The following roles are used to prepare a system. You can prepare your system in
 
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[robertdebock.bootstrap](https://galaxy.ansible.com/buluma/robertdebock.bootstrap)|[![Build Status GitHub](https://github.com/buluma/robertdebock.bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/robertdebock.bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/robertdebock.bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/robertdebock.bootstrap)|
-|[robertdebock.epel](https://galaxy.ansible.com/buluma/robertdebock.epel)|[![Build Status GitHub](https://github.com/buluma/robertdebock.epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/robertdebock.epel/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/robertdebock.epel/badges/master/pipeline.svg)](https://gitlab.com/buluma/robertdebock.epel)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
+|[buluma.epel](https://galaxy.ansible.com/buluma/epel)|[![Build Status GitHub](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-epel/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-epel)|
 
 ## [Context](#context)
 
