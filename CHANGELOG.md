@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-rpmfusion/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-rpmfusion/compare/0.1.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-rpmfusion/compare/0.1.1...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.4 to 1.0.5 [\#2](https://github.com/buluma/ansible-role-rpmfusion/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [0.1.1](https://github.com/buluma/ansible-role-rpmfusion/tree/0.1.1) (2022-04-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-rpmfusion/compare/0.1.0...0.1.1)
 
 **Closed issues:**
 
