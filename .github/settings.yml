@@ -5,4 +5,4 @@
 repository:
   description: Install rpmfusion repositories on your system.
   homepage: https://buluma.github.io/
-  topics: rpmfusion, ansible, molecule, tox, playbook, hacktoberfest
+  topics: rpmfusion, ansible, molecule, tox, playbook
