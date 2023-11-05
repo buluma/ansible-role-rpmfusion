@@ -2,9 +2,9 @@
 
 Install rpmfusion repositories on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-rpmfusion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-rpmfusion/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-rpmfusion/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-rpmfusion)|[![quality](https://img.shields.io/ansible/quality/58663)](https://galaxy.ansible.com/buluma/rpmfusion)|[![downloads](https://img.shields.io/ansible/role/d/58663)](https://galaxy.ansible.com/buluma/rpmfusion)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-rpmfusion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-rpmfusion/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-rpmfusion/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-rpmfusion)|[![downloads](https://img.shields.io/ansible/role/d/4824)](https://galaxy.ansible.com/buluma/rpmfusion)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
