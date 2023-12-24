@@ -1,10 +1,10 @@
-# [Ansible role rpmfusion](#rpmfusion)
+# Ansible role [rpmfusion](https://galaxy.ansible.com/ui/standalone/roles/buluma/rpmfusion/documentation)
 
 Install rpmfusion repositories on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-rpmfusion/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-rpmfusion/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-rpmfusion/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-rpmfusion/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-rpmfusion.svg)](https://github.com/buluma/ansible-role-rpmfusion/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/rpmfusion)](https://galaxy.ansible.com/ui/standalone/roles/buluma/rpmfusion/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -97,13 +97,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-rpmfusion/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-rpmfusion/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
