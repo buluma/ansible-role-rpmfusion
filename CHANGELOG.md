@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-rpmfusion/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-rpmfusion/compare/0.1.3...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-rpmfusion/compare/0.1.4...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#12](https://github.com/buluma/ansible-role-rpmfusion/issues/12)
+
+## [0.1.4](https://github.com/buluma/ansible-role-rpmfusion/tree/0.1.4) (2023-12-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-rpmfusion/compare/0.1.3...0.1.4)
 
 **Closed issues:**
 
