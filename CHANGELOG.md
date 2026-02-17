@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-rpmfusion/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-rpmfusion/compare/24.3.31...HEAD)
+
+**Closed issues:**
+
+- Update action [\#11](https://github.com/buluma/ansible-role-rpmfusion/issues/11)
+- rebuild action [\#10](https://github.com/buluma/ansible-role-rpmfusion/issues/10)
+
 ## [24.3.31](https://github.com/buluma/ansible-role-rpmfusion/tree/24.3.31) (2024-03-31)
 
 [Full Changelog](https://github.com/buluma/ansible-role-rpmfusion/compare/0.3.0...24.3.31)
