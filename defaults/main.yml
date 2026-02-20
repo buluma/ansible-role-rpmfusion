@@ -2,7 +2,7 @@
 # defaults file for rpmfusion
 
 # Allow installation of the "free" package?
-rpmfusion_free: yes
+rpmfusion_free: true
 
 # Allow installation of the "nonfree" package?
-rpmfusion_nonfree: yes
+rpmfusion_nonfree: true

@@ -3,7 +3,7 @@
 
 - name: Import assert.yml
   ansible.builtin.import_tasks: assert.yml
-  run_once: yes
+  run_once: true
   delegate_to: localhost
 
 - name: Install free and nonfree
@@ -20,10 +20,10 @@
             state: present
 
         - name: Install free repositories
-          ansible.builtin.yum:
+          ansible.builtin.dnf:
             name: "{{ rpmfusion_free_repository }}"
             state: present
-            validate_certs: no
+            validate_certs: false
           notify:
             - Yum update cache
 
@@ -37,9 +37,9 @@
             state: present
 
         - name: Install nonfree repositories
-          ansible.builtin.yum:
+          ansible.builtin.dnf:
             name: "{{ rpmfusion_nonfree_repository }}"
             state: present
-            validate_certs: no
+            validate_certs: false
           notify:
             - Yum update cache

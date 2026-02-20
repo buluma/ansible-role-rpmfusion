@@ -2,5 +2,5 @@
 # handlers file for rpmfusion
 
 - name: Yum update cache
-  ansible.builtin.yum:
-    update_cache: yes
+  ansible.builtin.dnf:
+    update_cache: true
