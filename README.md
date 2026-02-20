@@ -46,10 +46,10 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 # defaults file for rpmfusion
 
 # Allow installation of the "free" package?
-rpmfusion_free: yes
+rpmfusion_free: true
 
 # Allow installation of the "nonfree" package?
-rpmfusion_nonfree: yes
+rpmfusion_nonfree: true
 ```
 
 ## [Requirements](#requirements)
