@@ -12,27 +12,27 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-- name: Converge
-  hosts: all
-  become: yes
-  gather_facts: yes
+  - name: Converge
+    hosts: all
+    become: yes
+    gather_facts: yes
 
-  roles:
-    - role: buluma.rpmfusion
+    roles:
+      - role: buluma.rpmfusion
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-rpmfusion/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-- name: Prepare
-  hosts: all
-  become: yes
-  gather_facts: no
+  - name: Prepare
+    hosts: all
+    become: yes
+    gather_facts: no
 
-  roles:
-    - role: buluma.bootstrap
-    - role: buluma.epel
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.epel
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
