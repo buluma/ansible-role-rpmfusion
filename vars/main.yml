@@ -1,12 +1,12 @@
 ---
 # vars file for rpmfusion
 
-# This part maps ansible_facts.distribution to a generic value used by rpmfusion.
+# This part maps ansible_facts['distribution'] to a generic value used by rpmfusion.
 _rpmfusion_distribution:
   default: el
-  Fedora: "{{ ansible_facts.distribution | lower }}"
+  Fedora: "{{ ansible_facts['distribution'] | lower }}"
 
-rpmfusion_distribution: "{{ _rpmfusion_distribution[ansible_facts.distribution] | default(_rpmfusion_distribution['default']) }}"
+rpmfusion_distribution: "{{ _rpmfusion_distribution[ansible_facts['distribution']] | default(_rpmfusion_distribution['default']) }}"
 
 # Amazon uses "2018" and "2", which are similar to respectively 6 and 7.
 _rpmfusion_distribution_major_version:
@@ -14,9 +14,9 @@ _rpmfusion_distribution_major_version:
   "2": 7
 
 # Not all distributions (for example RedHat, CentOS and Fedora) need
-# modifiction, therefor the default value is ansible_facts.distribution_major_version.
+# modifiction, therefor the default value is ansible_facts['distribution_major_version'].
 rpmfusion_distribution_major_version:
-  "{{ _rpmfusion_distribution_major_version[ansible_facts.distribution_major_version] | default(ansible_facts.distribution_major_version)
+  "{{ _rpmfusion_distribution_major_version[ansible_facts['distribution_major_version']] | default(ansible_facts['distribution_major_version'])
   }}"
 
 # The URL to the gpg key differs, so we need to map distribution to the
@@ -25,7 +25,7 @@ _rpmfusion_gpgkey:
   default: "{{ rpmfusion_distribution_major_version }}"
   Fedora: 2020
 
-rpmfusion_gpgkey: "{{ _rpmfusion_gpgkey[ansible_facts.distribution] | default(_rpmfusion_gpgkey['default']) }}"
+rpmfusion_gpgkey: "{{ _rpmfusion_gpgkey[ansible_facts['distribution']] | default(_rpmfusion_gpgkey['default']) }}"
 
 rpmfusion_free_repository: "https://download1.rpmfusion.org/free/{{ rpmfusion_distribution }}/rpmfusion-free-release-{{ rpmfusion_distribution_major_version }}.noarch.rpm"
 rpmfusion_nonfree_repository:
