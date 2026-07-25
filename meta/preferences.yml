@@ -6,9 +6,6 @@ platforms:
     versions:
       - "10"
       - "9"
-  - name: Debian
-    versions:
-      - all
   - name: Fedora
     versions:
       # Excludes 45: it ships Python 3.15.0b3, whose dataclasses module
