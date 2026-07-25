@@ -12,6 +12,3 @@ platforms:
       # dropped _is_type, breaking ansible-core's AnsiballZ module wrapper.
       - "44"
       - "43"
-  - name: Ubuntu
-    versions:
-      - all
